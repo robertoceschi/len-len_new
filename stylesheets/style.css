@@ -3,7 +3,8 @@
 /* `Main Styles and Grid Overrides
 ----------------------------------------------------------------------------------------------------*/
 /* Set some colors that will be used in the layout */
-body {background-color:#201A16;}
+body {background-color:#ffffff;
+    top: 50px;}
 
 .color-one {background-color: #4A456C;} /* light purple */
 .color-two {background-color:#353153 ;} /* dark purple */ 
@@ -27,7 +28,7 @@ body {background-color:#201A16;}
 .full-width, .site-footer {
 	min-width:100%; 
 	position: relative; 
-	z-index:9999;
+	z-index:900;
 }
 
 #header.row {
@@ -35,7 +36,12 @@ body {background-color:#201A16;}
     position: fixed;
     z-index: 900;}
 
-
+.off-canvas-nav {
+    position: fixed;
+    z-index: 100000 !important;
+    background: rgba(255, 255, 255, 0.7);
+    width: 100%;
+}
 
 
 /* `PRIMARY NAVBAR
