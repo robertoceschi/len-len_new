@@ -30,6 +30,8 @@ body {background-color:#201A16;}
 	z-index:9999;
 }
 
+#header.row {width: 100%;}
+
 
 /* `PRIMARY NAVBAR
 ----------------------------------------------------------------------------------------------------*/
@@ -284,7 +286,7 @@ h3.service-icon span {
 	/* remove the default padding */
 	padding:0;
 }
-
+/*alles oberhalb 767px*/
 @media all and (min-width: 768px) {
 
   .js [role="complementary"] {
@@ -302,9 +304,12 @@ h3.service-icon span {
 
 }
 
+
 /* `MEDIA QUERIES
 ----------------------------------------------------------------------------------------------------*/
+/*alles unterhalb 767px*/
 @media only screen and (max-width: 767px) {
+
 
 	.nav-bar > li:hover {
 		border-bottom: none;}
@@ -336,4 +341,5 @@ h3.service-icon span {
 
 	/* Removes the centering of the featured image and resizes the image as the viewport is scaled down */
 	.featured img {width:100%; left:0; margin-left:0;}
+
 } /* end media query */
