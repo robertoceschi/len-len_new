@@ -138,10 +138,12 @@ p {
 
 /* `BUTTONS
 ----------------------------------------------------------------------------------------------------*/
+#sidebarButton.button {float: right}
 .button {
 	background-color:#dddddd;
 	border-color: #cccccc;
 	color:#222222;
+
 }
 
 .button:hover {
@@ -287,7 +289,7 @@ h3.service-icon span {
 
   .js [role="complementary"] {
   	/* Sets both the complementary and main sections at 100% width instead of main content / sidebar layout */
-  	width: 100%;
+  	/*width: 100%;*/
 }
   .js [role="main"] {
   	width: 100%; padding: 0 0;
@@ -297,7 +299,7 @@ h3.service-icon span {
 [role="main"]:before {
 	content:"";
 	/* Changes the bg color of the flyout panel */
-	background-color: #322820;
+
 }
 
 /* `MEDIA QUERIES
