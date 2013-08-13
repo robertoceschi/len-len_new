@@ -31,7 +31,9 @@ body {background-color:#201A16;}
 }
 
 #header.row {
-    width: 100%;}
+    width: 100%;
+    position: fixed;
+    z-index: 900;}
 
 
 
