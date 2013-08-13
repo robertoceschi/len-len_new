@@ -30,7 +30,8 @@ body {background-color:#201A16;}
 	z-index:9999;
 }
 
-#header.row {width: 100%;}
+#header.row {
+    width: 100%;}
 
 
 /* `PRIMARY NAVBAR
@@ -85,6 +86,13 @@ body {background-color:#201A16;}
 	/* px used instead of em to ensure nav bar doesn't break into multiple lines */
 	font-size: 15px !important; 
 }
+
+/* padding-left Logo in Header*/
+header#header.row div.five.columns {padding-left: 4.864489228630994%; /* 70 / 1439 */;}
+
+/* margin-right menue-button in Header*/
+#header #sidebarButton {margin-right: 4.864489228630994%; /* 70 / 1439 */;}
+
 
 /* `TYPOGRAPHY
 ----------------------------------------------------------------------------------------------------*/
@@ -214,7 +222,7 @@ textarea {
 	/* add the border under the header */
 	border-bottom: 5px solid #755F4F;}
 
-header {min-height: 100px;}
+
 
 /* SLIDER */
 #featured > img {width:100%;}
