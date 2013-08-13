@@ -283,15 +283,15 @@ h3.service-icon span {
 	padding:0;
 }
 
-@media all and (min-width: 768px) { 
-	
-  .js [role="complementary"] { 
+@media all and (min-width: 768px) {
+
+  .js [role="complementary"] {
   	/* Sets both the complementary and main sections at 100% width instead of main content / sidebar layout */
   	width: 100%;
-} 
-  .js [role="main"] { 
-  	width: 100%; padding: 0 0; 
-} 
+}
+  .js [role="main"] {
+  	width: 100%; padding: 0 0;
+}
 } /* end media query */
 
 [role="main"]:before {
@@ -317,18 +317,18 @@ h3.service-icon span {
 	.first {
 		padding-bottom:0 !important;
 		border-bottom: none;}
-	
+
 	.full-width {padding-bottom: 10px;}
-	
+
 	.service {
 		/* add a 1px bottom border between the service panels */
-		padding: 15px 15px 30px 15px; 
+		padding: 15px 15px 30px 15px;
 		border-bottom: 1px solid rgba(0,0,0,.2);}
-	
+
 	.service:last-child {
-		/* Removes the bottom border on the last service panel */ 
+		/* Removes the bottom border on the last service panel */
 		border:none;}
-	
+
 	/* ensures that the featured project div fills 100% of its parent */
 	.featured {width:100%;}
 
