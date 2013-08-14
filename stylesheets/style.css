@@ -3,8 +3,7 @@
 /* `Main Styles and Grid Overrides
 ----------------------------------------------------------------------------------------------------*/
 /* Set some colors that will be used in the layout */
-body {background-color:#ffffff;
-    top: 50px;}
+body {background-color:#ffffff;}
 
 .color-one {background-color: #4A456C;} /* light purple */
 .color-two {background-color:#353153 ;} /* dark purple */ 
@@ -41,6 +40,7 @@ body {background-color:#ffffff;
     z-index: 100000 !important;
     background: rgba(255, 255, 255, 0.7);
     width: 100%;
+
 }
 
 
@@ -113,7 +113,7 @@ h1 {
 	color: transparent;
 }
 
-h2, h3, .callout p {
+h2, h3, .front_image p {
 	font-family:'Open Sans', sans-serif;
 	text-align:center;
 	color:white;
@@ -132,9 +132,16 @@ p {
 	font-weight: 300;
 }
 
-/* CALLOUT PANEL */
+/* Haupt-Bild PANEL */
 
-.callout p {
+.front_image  {
+    background:url('../images/site_assets/ellen-header.jpg');
+    background-repeat: no-repeat;
+    min-height: 900px;
+    background-size: contain;
+}
+
+.front_image p {
 	font-family:'Open Sans', sans-serif;
 	text-align:center;
 	color:white;
@@ -233,12 +240,8 @@ textarea {
 	border-bottom: 5px solid #755F4F;}
 
 
-
-/* SLIDER */
-#featured > img {width:100%;}
-
 /*CALLOUT */
-.callout {padding:20px 0 20px 0;}
+.front_image {padding:20px 0 20px 0;}
 
 /* SERVICES AREA */
 .service {padding-bottom: 30px;}
@@ -319,6 +322,11 @@ h3.service-icon span {
 [role="main"]:before {
 	content:"";
 	/* Changes the bg color of the flyout panel */
+
+}
+
+body#page.off-canvas.active section#off_canvas_menue p {
+    padding-top: 70px;
 
 }
 
