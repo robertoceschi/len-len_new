@@ -134,9 +134,10 @@ p {
 /* Haupt-Bild PANEL */
 
 .front_image  {
+    width: 100%;
     background:url('../images/site_assets/ellen-header.jpg');
     background-repeat: no-repeat;
-    min-height: 900px;
+    min-height:900px;
     background-size: contain;
 }
 
@@ -378,6 +379,8 @@ body#page.off-canvas.active section#off_canvas_menue p {
     #sidebarButton.button {
         margin-top: -18px;
     }
+
+
 
 
 
