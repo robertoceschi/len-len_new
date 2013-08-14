@@ -37,9 +37,9 @@ body {background-color:#ffffff;}
 
 .off-canvas-nav {
     position: fixed;
-    z-index: 100000 !important;
     background: rgba(255, 255, 255, 0.7);
     width: 100%;
+    height: 50px;
 
 }
 
@@ -100,8 +100,7 @@ body {background-color:#ffffff;}
 /* padding-left Logo in Header*/
 header#header.row div.five.columns {padding-left: 4.864489228630994%; /* 70 / 1439 */;}
 
-/* margin-right menue-button in Header*/
-#header #sidebarButton {margin-right: 4.864489228630994%; /* 70 / 1439 */;}
+
 
 
 /* `TYPOGRAPHY
@@ -165,11 +164,16 @@ p {
 
 /* `BUTTONS
 ----------------------------------------------------------------------------------------------------*/
-#sidebarButton.button {float: right}
+#sidebarButton.button {
+    float: right;
+    margin-right: 4.7%;
+    margin-top: -0.75%;
+}
 .button {
 	background-color:#dddddd;
 	border-color: #cccccc;
 	color:#222222;
+
 
 }
 
@@ -331,8 +335,12 @@ body#page.off-canvas.active section#off_canvas_menue p {
 }
 
 
+
 /* `MEDIA QUERIES
 ----------------------------------------------------------------------------------------------------*/
+
+
+
 /*alles unterhalb 767px*/
 @media only screen and (max-width: 767px) {
 
@@ -343,9 +351,7 @@ body#page.off-canvas.active section#off_canvas_menue p {
 	.nav-bar > li > a.main {
 		border:none;}
 
-	.menu-button {
-		/* Add a margin betwen the logo and the 'Menu' button */
-		margin-top:30px;}
+
 
 	.first {
 		padding-bottom:0 !important;
@@ -367,5 +373,12 @@ body#page.off-canvas.active section#off_canvas_menue p {
 
 	/* Removes the centering of the featured image and resizes the image as the viewport is scaled down */
 	.featured img {width:100%; left:0; margin-left:0;}
+
+
+    #sidebarButton.button {
+        margin-top: -18px;
+    }
+
+
 
 } /* end media query */
